@@ -1,0 +1,45 @@
+# Facade Design Pattern
+
+## What is Facade?
+
+The **Facade Design Pattern** is a structural design pattern that provides a simple, unified interface to a complex subsystem.
+
+It hides the internal complexity and allows the client to perform an operation through a single entry point.
+
+## Example
+
+Consider placing an order in an e-commerce application. It may require multiple services:
+
+- `InventoryService` — checks product availability.
+- `PaymentService` — processes payment.
+- `ShippingService` — arranges delivery.
+- `NotificationService` — sends confirmation.
+
+Instead of calling each service separately, the client calls `OrderFacade.placeOrder()`. The facade coordinates these services in the required order.
+
+## How It Works
+
+1. The client calls a method on the facade.
+2. The facade coordinates the required subsystem services.
+3. Each service performs its own responsibility.
+4. The client does not need to manage the entire workflow.
+
+## Key Benefits
+
+- Simplifies interaction with complex subsystems.
+- Reduces coupling between the client and subsystem classes.
+- Centralizes common workflows.
+- Improves readability and maintainability.
+
+## When to Use
+
+Use the Facade Pattern when a client needs to interact with multiple subsystem classes through a simpler interface.
+
+## Important Note
+
+A facade does not replace the underlying services. It provides a convenient entry point to coordinate them.
+
+## Interview Definition
+
+**Facade provides a unified, simplified interface to a complex subsystem, hiding its internal complexity from the client.**
+
