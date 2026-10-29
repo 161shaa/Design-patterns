@@ -71,7 +71,7 @@ class DevOpsEngineer extends Employee {
 public class Main {
     public static void main(String[] args) {
 
-      //clinet which will interact
+      //client which will interact
         Employee dev =
                 new Developer(new MacBook());
         Employee tester =
