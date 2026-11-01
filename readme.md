@@ -37,12 +37,12 @@ These patterns deal with how classes and objects are composed.
 | Pattern | Purpose | Status |
 |---|---|---|
 | Adapter | Make incompatible interfaces work together | ✅ Practiced |
-| Bridge | Separate abstractions from their implementations | ⬜ Planned |
+| Bridge | Separate abstractions from their implementations |✅ Practiced |
 | Composite | Treat individual objects and groups uniformly | 📖 Learning |
-| Decorator | Add behavior to objects dynamically | ⬜ Planned |
+| Decorator | Add behavior to objects dynamically | ✅ Practiced|
 | Facade | Provide a simple interface to a complex subsystem | ✅ Practiced |
 | Flyweight | Share common data to reduce memory usage | ⬜ Planned |
-| Proxy | Control access to another object | ⬜ Planned |
+| Proxy | Control access to another object | ✅ Practiced |
 
 ### 3. Behavioral Patterns
 
@@ -50,7 +50,7 @@ These patterns deal with communication and responsibilities between objects.
 
 | Pattern | Purpose | Status |
 |---|---|---|
-| Chain of Responsibility | Pass requests through a chain of handlers | ⬜ Planned |
+| Chain of Responsibility | Pass requests through a chain of handlers | ✅ Practiced |
 | Command | Encapsulate a request as an object | ⬜ Planned |
 | Iterator | Traverse a collection without exposing its internals | ⬜ Planned |
 | Mediator | Centralize communication between objects | ⬜ Planned |
@@ -58,7 +58,7 @@ These patterns deal with communication and responsibilities between objects.
 | Observer | Notify subscribers when an object's state changes | ⬜ Planned |
 | State | Change behavior based on an object's state | ⬜ Planned |
 | Strategy | Make algorithms interchangeable | ⬜ Planned |
-| Template Method | Define an algorithm's structure in a base class | ⬜ Planned |
+| Template Method | Define an algorithm's structure in a base class | ✅ Practiced |
 | Visitor | Add operations to object structures without changing their classes | ⬜ Planned |
 
 *Status legend:* ✅ Practiced · 📖 Learning · 🟡 Introduced · ⬜ Planned
